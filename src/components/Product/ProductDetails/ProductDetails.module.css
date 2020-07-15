@@ -1,0 +1,15 @@
+.product_detail {
+    margin: 0 auto;
+}
+
+.product_detail img {
+    padding: 0 100px;
+    width: 400px !important;
+    height: auto !important;
+}
+
+.product_detail h2 {
+    padding: 0 100px;
+    width: 400px !important;
+    height: auto !important;
+}
