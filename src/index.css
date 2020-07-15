@@ -12,16 +12,20 @@ code {
     monospace;
 }
 
+body h1 {
+  margin: 10px 25px;
+}
 
 .navbar {
   display: flex;
   list-style-type: none;
-  background-color: #cccccc;
+  background-color: #4071ce;
   padding: 1rem;
 }
 
 .navbar a {
   cursor: pointer;
+  color: #ffffff;
   margin-right: 15px !important;
   font-size: 18px;
 }
@@ -30,4 +34,19 @@ code {
   background: #282c34;
   /* background-color: #282c34; */
   /* color: #ffffff; */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  border-radius: 100%;
+  width: 150px;
+  margin: 20px;
+}
+
+.logo h1 {
+  display: inline-block;
 }

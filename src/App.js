@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import logo from './images/logo.png';
 import './index.css';
 
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
@@ -9,7 +10,18 @@ import ProductsList from './components/Product/ProductsList/ProductsList';
 import ProductDetails from './components/Product/ProductDetails/ProductDetails';
 import NotFound from './components/NotFound/NotFound';
 
-const Home = () => { return ( <h1> Welcome to the <s>Candy</s> Shoe Shop! </h1> ); }
+const Home = () => {
+  return (
+    <>
+      <div className="logo">
+        <img src={logo} alt="" />
+        <h1> Welcome to the <s>Candy</s> Shoe Shop! </h1>
+      </div>
+    </>
+
+  );
+}
+
 const Blog = () => ( <h1> Hi I'm in Blog </h1> );
 
 function App() {
