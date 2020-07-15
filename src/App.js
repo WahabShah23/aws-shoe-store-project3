@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import './index.css';
 
-import { BrowserRouter as Router, Routes, Route, Link, NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+// import { BrowserRouter as Router, Routes, Route, Link, NavLink } from 'react-router-dom';
 import Product from './components/Product/Product';
 import ProductsList from './components/Product/ProductsList/ProductsList';
 import ProductDetails from './components/Product/ProductDetails/ProductDetails';
